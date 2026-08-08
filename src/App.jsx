@@ -560,9 +560,11 @@ function computeStreak(entries, username) {
   }
   return streak;
 }
-
 const GENERAL_SUBJECTS = [
   { key: "farsi", label: "فارسی", emoji: "📖", color: "#FF5D8F" },
   { key: "arabic", label: "عربی", emoji: "🕌", color: "#FFB627" },
   { key: "language", label: "زبان", emoji: "🌍", color: "#3FC6E8" },
-  { key: "health", label: "س
+  { key: "health", label: "سلامت", emoji: "💪", color: "#20C4B0" },
+  { key: "identity", label: "هویت اجتماعی", emoji: "🧭", color: "#8E7DFF" },
+];
+const
